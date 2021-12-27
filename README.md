@@ -1,3 +1,3 @@
 # Personal-Website
 
-My personal website, coded in HTML, CSS, Javascript, used from a template.
+My personal website, coded in HTML, CSS, Javascript, developed from a template. Contains information about me, my resume, projects, socials, and contact information. 
