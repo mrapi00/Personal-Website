@@ -98,15 +98,14 @@
                 My name is Mahmudul and I'm from NYC!
               </p>
               <p class="about-wrapper__info-text">
-                I'm a sophomore at Princeton University studying <strong> Computer Science </strong>
-                and pursuing a minor in <strong> Statistics and Machine Learning</strong>. On campus, I'm involved as a 
+                I'm a junior at Princeton University studying <strong> Computer Science </strong>
+                and pursuing a minor in <strong> Statistics and Machine Learning</strong>. My relevant work experience includes 
+                being a <em>Software Developer Research Assistant</em> at Princeton's Intelligence and Adaptation Lab, an 
+                <em>Algorithms & Data Structures Grader</em> for Princeton's Computer Science Department, and <em> a Data 
+                Science Intern </em> at the Centers for Disease Control and Prevention (CDC).On campus, I'm involved as a 
                 <em>software engineer</em> on The Daily Princetonian (school newspaper), and <em>software subteam lead</em> on 
-                Princeton Rocketry Club. My relevant work experience includes being a <em>Software Developer Research Assistant</em> at 
-                Princeton's Intelligence and Adaptation Lab, an <em>Algorithms & Data Structures Grader</em> for 
-                Princeton's Computer Science Department, and <em> a Data Science Intern </em> at the Centers
-                for Disease Control and Prevention (CDC).
-                I am passionate about <strong> software engineering</strong> as a career, because I love programming, problem solving, 
-                and creating an impact through software development!
+                Princeton Rocketry Club. I am passionate about <strong> software engineering</strong> as a career, because I 
+                love programming, problem solving, and creating an impact through software development!
               </p>
 
               <p class="about-wrapper__info-text">
@@ -134,8 +133,100 @@
     <section id="projects">
       <div class="container">
         <div class="project-wrapper">
-          <h2 class="section-title dark-blue-text">Programming Projects</h2>
-          
+          <h2 class="section-title dark-blue-text">Programming Experience & Projects</h2>
+
+          <!-- Notice: each .row is a project -->
+          <div class="row">
+            <div class="col-lg-4 col-sm-12">
+              <div class="project-wrapper__text load-hidden">
+                <h3 class="project-wrapper__text-title">TigerClimb</h3>
+                <div>
+                  <p class="mb-4">
+                    For my Advanced Programming Techniques class, I worked on a semester-long web application in a group of 5 called <em>TigerClimb</em>, 
+                    which is built using <strong>Python and Flask</strong> (server-side), <strong>HTML/CSS/Javascript</strong> (client-side), and <strong>PostgreSQL</strong> (database).
+                    Our web app allows the hundreds of Princeton students involved with the <em>Princeton Climbing Wall</em> to query climbing routes, add favorite routes, and comment
+                    on routes. Admins are able to use our built graphical user interface to add new routes and set holds for a given route. 
+                    
+                  </p>
+                </div>
+                <a
+                  rel="noreferrer"
+                  target="_blank"
+                  class="cta-btn cta-btn--hero"
+                  href="https://tigerclimb.herokuapp.com/"
+                >
+                  Website Link
+                </a>
+              </div>
+            </div>
+            <div class="col-lg-8 col-sm-12">
+              <div class="project-wrapper__image load-hidden">
+                <a rel="noreferrer" href="https://tigerclimb.herokuapp.com/" target="_blank">
+                  <div
+                    data-tilt
+                    data-tilt-max="4"
+                    data-tilt-glare="true"
+                    data-tilt-max-glare="0.5"
+                    class="thumbnail rounded js-tilt"
+                  >
+                    <img
+                      alt="Project Image"
+                      class="img-fluid"
+                      src="assets/tigerclimb.png"
+                    />
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+          <!-- /END Project -->
+
+          <!-- Notice: each .row is a project -->
+          <div class="row">
+            <div class="col-lg-4 col-sm-12">
+              <div class="project-wrapper__text load-hidden">
+                <h3 class="project-wrapper__text-title">Choose Your Target</h3>
+                <div>
+                  <p class="mb-4">
+                    As a part of my work as a research assistant for Princeton's Intelligent Performance and Adaptation Lab, I contributed
+                    to the development of a web version for an motor-leaning based Unity experiment called <em>Choose Your Target</em>. This 
+                    required writing software in <strong>Unity C#</strong> which fetches trial and orders settings from <strong>Google Firebase</strong> 
+                    using <strong>REST API</strong>, previous stored as local data as CSV files. Also wrote a script in 
+                    <strong>Javascript (Google Apps Script) </strong> which uploads these CSV data into Firebase. 
+                  </p>
+                </div>
+                <a
+                  rel="noreferrer"
+                  target="_blank"
+                  class="cta-btn cta-btn--hero"
+                  href="https://realtimedatabase-39b26.web.app/"
+                >
+                  Website Link
+                </a>
+              </div>
+            </div>
+            <div class="col-lg-8 col-sm-12">
+              <div class="project-wrapper__image load-hidden">
+                <a rel="noreferrer">
+                  <div
+                    data-tilt
+                    data-tilt-max="4"
+                    data-tilt-glare="true"
+                    data-tilt-max-glare="0.5"
+                    class="thumbnail rounded js-tilt"
+                  >
+                    <img
+                      alt="Project Image"
+                      class="img-fluid"
+                      src="assets/choosetarget.png"
+                    />
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+          <!-- /END Project -->
+
           <!-- Notice: each .row is a project -->
           <div class="row">
             <div class="col-lg-4 col-sm-12">
@@ -143,7 +234,7 @@
                 <h3 class="project-wrapper__text-title">LC3 Instruction Set Computer</h3>
                 <div>
                   <p class="mb-4">
-                    For my Digital Logic class, we were tasked with programming a microprocessor in <strong> Verilog </strong>that implements the LC3 
+                    I programming a microprocessor in <strong> Verilog </strong>that implements the LC3 
                     instruction set, a 16-bit processor with a simple but versatile instruction set. This processor is Turing 
                     complete and is a full-fledged stored program computer. A description of the assembly functions my computer implements
                     can be found <a rel="noreferrer" href="assets/LC3ISA.pdf" target="_blank"
@@ -162,7 +253,7 @@
             </div>
             <div class="col-lg-8 col-sm-12">
               <div class="project-wrapper__image load-hidden">
-                <a rel="noreferrer" href="#!" target="_blank">
+                <a rel="noreferrer">
                   <div
                     data-tilt
                     data-tilt-max="4"
@@ -189,10 +280,9 @@
                 <h3 class="project-wrapper__text-title">Symbol Table Linked List and Hash Table Implementation</h3>
                 <div>
                   <p class="mb-4">
-                    A symbol table is a fundamental data structure used for key-value pairs. In my systems programming
-                    class, I was tasked with implementing a symbol table in <strong>C</strong> with a linked list implementation and
-                    a resizing hash table (more efficient) implementation. Programming in C required carefulness
-                    with dynamically allocated memory.
+                    A symbol table is a fundamental data structure used for key-value pairs. I implemented a symbol table 
+                    in <strong>C</strong> with a linked list implementation and a resizing hash table (more efficient) 
+                    implementation. Programming in C required carefulness with dynamically allocated memory.
                   </p>
                 </div>
                 <a
@@ -207,7 +297,7 @@
             </div>
             <div class="col-lg-8 col-sm-12">
               <div class="project-wrapper__image load-hidden">
-                <a rel="noreferrer" href="#!" target="_blank">
+                <a rel="noreferrer">
                   <div
                     data-tilt
                     data-tilt-max="4"
@@ -254,7 +344,7 @@
             </div>
             <div class="col-lg-8 col-sm-12">
               <div class="project-wrapper__image load-hidden">
-                <a rel="noreferrer" href="#!" target="_blank">
+                <a rel="noreferrer">
                   <div
                     data-tilt
                     data-tilt-max="4"
@@ -281,10 +371,8 @@
                 <h3 class="project-wrapper__text-title">Seam Carving Project</h3>
                 <div>
                   <p class="mb-4">
-                    I implemented seam carving for my data structures and algorithms class, 
-                    programmed <strong>Java</strong>. 
-                    Seam-carving is a content-aware image resizing technique where 
-                    the image is reduced in size by one pixel of height (or width) at a time. 
+                    In <strong>Java</strong>, I programmed the Seam-carving algorithm, which is a content-aware image resizing 
+                    technique where the image is reduced in size by one pixel of height (or width) at a time. 
                     Unlike scaling or cropping, seam carving preserves the most important features
                     of the image. The project implements dynamic programming and backtracking to find
                     the seam which can be removed. 
@@ -302,7 +390,7 @@
             </div>
             <div class="col-lg-8 col-sm-12">
               <div class="project-wrapper__image load-hidden">
-                <a rel="noreferrer" href="#!" target="_blank">
+                <a rel="noreferrer">
                   <div
                     data-tilt
                     data-tilt-max="4"
@@ -329,9 +417,9 @@
                 <h3 class="project-wrapper__text-title">My Personal Website</h3>
                 <div>
                   <p class="mb-4">
-                    You're looking at it right now! My personal website is programmed in <strong>HTML, CSS, 
-                    Javascript, and Bootstrap</strong>. It contains information about me, my 
-                    resume, projects, socials, and contact information.
+                    You're looking at it right now! My personal website is programmed in <strong>HTML, CSS (Boostrap), 
+                    and Javascript</strong>. It's a responsive single page website, and contains information about me, 
+                    my resume, projects, socials, and contact information.
                   </p>
                 </div>
                 <a
@@ -346,7 +434,7 @@
             </div>
             <div class="col-lg-8 col-sm-12">
               <div class="project-wrapper__image load-hidden">
-                <a rel="noreferrer" href="#!" target="_blank">
+                <a rel="noreferrer">
                   <div
                     data-tilt
                     data-tilt-max="4"
@@ -379,6 +467,9 @@
             <div class="about-wrapper__info load-hidden" >
               <p class="about-wrapper__info-text" style="line-height: 3; display: inline-block; text-align: left">
                 <strong>COS333 </strong> Full-Stack Programming Techniques (Python, SQL, HTML, CSS, Javascript)<br>
+                <strong>COS418 </strong> Distributed Systems (Go) <br>
+                <strong>COS423 </strong> Theory of Algorithms <br>
+                <strong>COS316 </strong> Computer System Design (Go) <br>
                 <strong>COS324 </strong> Intro Machine Learning (Python)<br>
                 <strong>COS226 </strong> Algorithms and Data Structures (Java)<br>
                 <strong>COS217 </strong> Systems Programming (C, x86 Assembly)<br>
@@ -415,8 +506,8 @@
             <div class="about-wrapper__info load-hidden">
               <p class="about-wrapper__info-text" style=" text-align: left; line-height: 2;">
                 <strong>Languages:</strong> Java, Python, C, HTML, CSS, Javascript, Typescript, SQL, R, Verilog <br>
-                <strong>Frameworks/Libaries:</strong> Flask, Node.js, NumPy, PyQt5, Socket, jQuery, Bootstrap <br>
-                <strong>Tools:</strong> Google Firebase, PostgreSQL, Git/GitHub, Heroku
+                <strong>Frameworks/Libaries:</strong> Flask, Bootstrap, Node.js, jQuery, SQLAlchemy,  NumPy, PyQt5 <br>
+                <strong>Tools:</strong> PostgreSQL, Google Firebase, Git/GitHub, Heroku
               </p>
             </div>
           </div>
